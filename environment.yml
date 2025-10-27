@@ -6,3 +6,4 @@ dependencies:
       - pandas==2.2.3
       - pre-commit==3.4.0
       - langchain==0.0.208
+      - fastf1==3.6.1
