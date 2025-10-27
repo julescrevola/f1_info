@@ -1,0 +1,10 @@
+# Data
+data/
+*.txt
+*.csv
+
+# pycache
+src/__pycache__/
+
+# ruff cache
+.ruff_cache/
