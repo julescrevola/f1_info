@@ -1,6 +1,5 @@
 # Data
 data/
-*.txt
 *.csv
 
 # pycache
@@ -8,3 +7,9 @@ src/__pycache__/
 
 # ruff cache
 .ruff_cache/
+
+# fastf1 cache
+src/fastf1_cache/
+
+# others
+*.whl
