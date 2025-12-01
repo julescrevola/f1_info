@@ -186,8 +186,9 @@ def _clear_vector_table() -> None:
     if not VECTOR_DB_PATH.exists():
         return
 
-    with duckdb.connect(str(VECTOR_DB_PATH)) as conn:
-        conn.execute(f"DROP TABLE IF EXISTS {VECTOR_TABLE}")
+    conn = duckdb.connect(str(VECTOR_DB_PATH))
+    conn.execute(f"DROP TABLE IF EXISTS {VECTOR_TABLE}")
+    conn.close()
 
 
 @lru_cache(maxsize=1)
