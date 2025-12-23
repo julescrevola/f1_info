@@ -3,7 +3,7 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 
-# The F1 GPT
+# The F1 GPT (WIP)
 
 Getting information about Formula 1 history with a simple chatbot. Built with LangChain for the backend and React with RSbuild for the frontend.
 
